@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: lightcoral;
+    padding: 1rem;
+    border-bottom: 1px solid lightcyan;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(50, 143, 173);
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+#container-header{
+    background-color: rgb(175, 224, 241);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+h1{
+    margin-botton: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(65, 65, 65);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#container-header button{
+    background-color: aliceblue;
+    color: rgb(66, 130, 133);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+#container-header button:hover{
+    background-color: white;
+    transition: 0.8;
+}
+
+#container-avaliacao{
+    background-color: aliceblue;
+    color: black;
+    padding: 2.5rem;
+    text-align: center;
+    border-bottom: 1px solid lemonchiffon;
+}
+
+#container-avaliacao img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin: 1rem auto;
+    display: block;
+    object-fit: cover;
+}
+
+.container-card{
+    background-color: white;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-info{
+    background-color: rgb(245, 245, 190);
+    padding: 1rem;
+    border-radius: 6px;
+    width: 300px;
+    box-shadow: 0 2px 10px  black;
+    border: 1px solid lightcyan;
+    transition: transform 0.2s, box shadow 0.2s;
+}
+
+.container-info li{
+    list-style: none;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid ghostwhite;
+    color: black;
+    font-size: 0.95rem;
+}
+
+.container-info div{
+    color: rgb(10, 92, 10);
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+footer{
+    background-color: ghostwhite;
+    color: lightcoral;
+    text-align: center;
+    padding: 1.8rem;
+    font-size: 0.9rem;
+}
